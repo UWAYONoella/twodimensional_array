@@ -1,7 +1,7 @@
-public class ATM {
+public class accaunt {
   private float balance;
 
-  public ATM(float initialBalance) {
+  public accaunt(float initialBalance) {
       balance = initialBalance;
   }
 
@@ -24,7 +24,7 @@ public class ATM {
 
 
   public static void main(String[] args) {
-      ATM atm = new ATM(2000);
+      accaunt atm = new accaunt(2000);
       atm.withdraw(500.0f);
       atm.deposit(3000);
       System.out.println("Balance after withdraw: " + atm.getBalance());
