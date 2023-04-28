@@ -3,7 +3,7 @@ public class minColumnWiselr {
     public static void main(String[] args) {
         int[][] array1 = new int[7][7];
         
-        int[] maxNm = new int[7];
+        int[] minNm = new int[7];
 
         for (int r = 0; r < 7; r++) {
             for (int c = 0; c <7; c++) {
@@ -13,15 +13,14 @@ public class minColumnWiselr {
 
 
         for (int r = 0; r < 7; r++) {
+            minNm[r] = Integer.MAX_VALUE;
             for (int c = 0; c < 7; c++) {
-                if (array1[c][r] < maxNm [r]) {
-                    maxNm [r] = array1[c][r];
+                if (array1[c][r] < minNm [r] && array1[c][r] != 0) {
+                    minNm [r] = array1[c][r];
                 }}
-            array1[r][r] = maxNm [r];
+            array1[r][r] = minNm [r];
         }
-        // for (int i = 0; i < 7; i++) {
-        //     array1[6 - i][i] = maxNm[i];
-        // }
+        
 
 
 
