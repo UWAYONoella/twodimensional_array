@@ -1,4 +1,4 @@
-public class minRowWise {
+public class maxRowWiserl {
     public static void main(String[] args) {
         int[][] array3 = new int[7][7];
         int[] minNm = new int[7];
@@ -15,7 +15,7 @@ public class minRowWise {
         for (int i = 0; i < 7; i++) {
             int min = array3[i][0];
             for (int j = 1; j < 7; j++) {
-                if (array3[i][j] < min) {
+                if (array3[i][j] > min) {
                     min = array3[i][j];
                 }
             }

@@ -1,4 +1,4 @@
-public class maxRowWise {
+public class maxRowWiselr {
     public static void main(String[] args) {
         int[][] array2 = new int[7][7];
         int[] maxNm = new int[7];

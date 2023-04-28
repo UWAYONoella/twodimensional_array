@@ -1,4 +1,4 @@
-public class maxColumnWise {
+public class minColumnWiselr {
    
     public static void main(String[] args) {
         int[][] array1 = new int[7][7];
@@ -14,13 +14,18 @@ public class maxColumnWise {
 
         for (int r = 0; r < 7; r++) {
             for (int c = 0; c < 7; c++) {
-                if (array1[c][r] > maxNm [r]) {
+                if (array1[c][r] < maxNm [r]) {
                     maxNm [r] = array1[c][r];
                 }}
             array1[r][r] = maxNm [r];
         }
+        // for (int i = 0; i < 7; i++) {
+        //     array1[6 - i][i] = maxNm[i];
+        // }
 
-        
+
+
+
         for (int r = 0; r < 7; r++) {
             for (int c = 0; c < 7; c++) {
                 System.out.printf("%-4d",array1[r][c]);
