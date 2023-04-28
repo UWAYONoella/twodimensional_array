@@ -1,18 +1,18 @@
 
 
-public class minCulmn {
+public class minCulmnWise {
     public static void main(String[] args) {
         int[][] array4 = new int [7][7];
-
+        int[] minNm = new int[7];
 
 
         for (int i = 0; i < 7; i++) {
             for (int j = 0; j < 7; j++) {
-                array4[i][j] = (int) (Math.random() * 100) + 1;
+                array4[i][j] = (int) (Math.random() * 10) + 10;
             }
         }
 
-        int[] minNm = new int[7];
+        
         for (int i = 0; i < 7; i++) {
             int min = array4[0][i];
             for (int j = 1; j < 7; j++) {
@@ -32,7 +32,7 @@ public class minCulmn {
         }
 
         for (int i = 0; i < 7; i++) {
-            array4[i][6 - i] = minNm[i];
+            array4[i][6- i] = minNm[i];
         }
 
         

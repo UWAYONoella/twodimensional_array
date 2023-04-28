@@ -1,17 +1,17 @@
-public class min_row {
+public class minRowWise {
     public static void main(String[] args) {
         int[][] array3 = new int[7][7];
-
+        int[] minNm = new int[7];
         
         for (int i = 0; i < 7; i++) {
             for (int j = 0; j < 7; j++) {
-                array3[i][j] = (int) (Math.random() * 40) + 10;
+                array3[i][j] = (int) (Math.random() * 10) + 10;
             }
         }
 
     
         
-        int[] minNm = new int[7];
+        
         for (int i = 0; i < 7; i++) {
             int min = array3[i][0];
             for (int j = 1; j < 7; j++) {
