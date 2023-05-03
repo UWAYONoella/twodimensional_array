@@ -1,3 +1,13 @@
+// INES RUHENGERI
+// Name: UWAYO Noella
+// Reg: 22/16752
+//    Assignment1:     OOP with java
+
+
+
+
+
+
 public class maxRowWiserl {
     public static void main(String[] args) {
         int[][] array3 = new int[7][7];

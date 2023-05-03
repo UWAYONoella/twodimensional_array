@@ -1,4 +1,11 @@
 
+// INES RUHENGERI
+// Name: UWAYO Noella
+// Reg: 22/16752
+//    Assignment1:     OOP with java
+
+
+
 
 public class minCulmnWiserl {
     public static void main(String[] args) {
